@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<div>
+  <child-comp [ShowMe]="ShowMe" (myValue)="toggleValue($event)"></child-comp>
+  <span> {{ShowMe}}</span>
+
+  <div>
